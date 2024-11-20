@@ -16,7 +16,7 @@ export const fetchWithAuth = async (endpoint: string,
     headers,
   });
 
-  // Kiểm tra lỗi
+  // Kiểm tra lỗi nè
   if (!response.ok) {
     const errorData = await response.json();
     throw new Error(errorData.message || "Error occurred");
