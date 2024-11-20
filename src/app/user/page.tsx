@@ -7,7 +7,7 @@ import React from "react";
 
 function Homepage() {
   const listImage = [bakery2, bakery3, bakery4, bakery5];
-  return <div>Quang</div>;
+  return <div>Quang1</div>;
 }
 
 export default Homepage;
